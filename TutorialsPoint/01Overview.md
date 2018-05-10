@@ -19,6 +19,6 @@ Docker has the following components
 We will discuss all these components in detail in the subsequent chapters.
 </p>
 <p>
-The official site for Docker is ![https://www.docker.com/](https://www.docker.com/) The site has all information and documentation about the Docker software. It also has the download links for various operating systems.
+The official site for Docker is https://www.docker.com The site has all information and documentation about the Docker software. It also has the download links for various operating systems.
 </p>
 
