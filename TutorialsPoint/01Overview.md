@@ -11,4 +11,14 @@ Docker is a container management service. The keywords of Docker are <b>develop<
 Docker has the following components
 > - <b>Docker for Mac</b> : It allows one to run Docker containers on the Mac OS.
 > - <b>Docker for Linux</b> : It allows one to run Docker containers on the Linux OS.
-> -
+> - <b>Docker for Windows</b> : It allows one to run Docker containers on the Windows OS.
+> - <b>Docker Engine</b> : It is used for building Docker images and creating Docker containers.
+> - <b>Docker Hub</b> : This is the registry which is used to host various Docker images.
+> - <b>Docker Comopse</b> : This is used to define applications using multiple Docker containers.
+<p>
+We will discuss all these components in detail in the subsequent chapters.
+</p>
+<p>
+The official site for Docker is ![https://www.docker.com/](https://www.docker.com/) The site has all information and documentation about the Docker software. It also has the download links for various operating systems.
+</p>
+
