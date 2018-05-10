@@ -8,7 +8,7 @@ Docker is a container management service. The keywords of Docker are <b>develop<
     - Since Docker containers are pretty lightweight, they are very easily scalable.
     
 ## Components of Docker
-    - Docker has the following components
+Docker has the following components
 > - <b>Docker for Mac</b> : It allows one to run Docker containers on the Mac OS.
 > - <b>Docker for Linux</b> : It allows one to run Docker containers on the Linux OS.
 > -
