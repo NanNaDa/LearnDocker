@@ -15,7 +15,7 @@ To install Docker, we need to follow the steps given below.
 >> ```
 >> uname -a
 >> ```
->> <b> Options </b>
+>> ## Options </b>
 >> <b>a</b> - This is used to ensure that the system information is returned.
 >> <b> Return Value</b>
 >><p> This method returns the following information on the Linux system
