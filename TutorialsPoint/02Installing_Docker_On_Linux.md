@@ -128,48 +128,48 @@ To install Docker, we need to follow the steps given below.
 
 ## Docker Version
 To see the version of Docker running, you can issue the following command
->> ## Syntax
->>```
->> docker version
->>```
->> ## Options
->> - <b>version</b> - It is used to ensure the Docker command returns the Docker version installed.
->> ## Return Value
->> The output will provide the various details of the Docker version installed on the system.
->> ## Example
->> ```
->> sudo docker version
->>```
->> ## Output
->> When we run the above program, we will get the following result
->>
->> ![docker version output](/TutorialsPoint/res/img/docker_version_output.jpg)
+> ## Syntax
+>```
+> docker version
+>```
+> ## Options
+> - <b>version</b> - It is used to ensure the Docker command returns the Docker version installed.
+> ## Return Value
+> The output will provide the various details of the Docker version installed on the system.
+> ## Example
+> ```
+> sudo docker version
+>```
+> ## Output
+> When we run the above program, we will get the following result
+>
+> ![docker version output](/TutorialsPoint/res/img/docker_version_output.jpg)
 
 
 ## Docker Info
 To see more information on the Docker running on the system, you can issue the following command
->> ## Syntax
->>```
->> docker info
->>```
->> ## Options
->> - <b>info</b> - It is used to ensure that the Docker command returns the detailed information on the Docker service installed.
->> ## Return Value
->> The output will provide the various details of the Docker installed on the system such as
->> - Number of containers
->> - Number of images
->> - The storage driver used by Docker
->> - The root directory used by Docker
->> - The execution driver used by Docker
->>
->> ## Example
->>```
->> sudo docker info
->>```
->>
->> ## Output
->> When we run the above command, we will get the following result
->> ![docker info example output](/TutorialsPoint/res/img/docker_info_example_output.jpg)
+> ## Syntax
+>```
+> docker info
+>```
+> ## Options
+> - <b>info</b> - It is used to ensure that the Docker command returns the detailed information on the Docker service installed.
+> ## Return Value
+> The output will provide the various details of the Docker installed on the system such as
+> - Number of containers
+> - Number of images
+> - The storage driver used by Docker
+> - The root directory used by Docker
+> - The execution driver used by Docker
+>
+> ## Example
+>```
+> sudo docker info
+>```
+>
+> ## Output
+> When we run the above command, we will get the following result
+> ![docker info example output](/TutorialsPoint/res/img/docker_info_example_output.jpg)
 
 
 ## Docker for Windows
