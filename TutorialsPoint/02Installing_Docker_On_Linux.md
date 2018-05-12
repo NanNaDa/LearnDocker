@@ -56,6 +56,7 @@ To install Docker, we need to follow the steps given below.
 >> ### Output
 >> When we run the above command, we will get the following result
 >> ![command of sudo apt-get update](/TutorialsPoint/res/img/example_output.jpg)
+>>
 >> This command will connect to the internet and download the latest system packages for Ubuntu.
 > ## Step 3. -
 
