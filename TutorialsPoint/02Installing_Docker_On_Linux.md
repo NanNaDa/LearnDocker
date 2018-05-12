@@ -181,4 +181,15 @@ Docker has out-of-the-box support for Windows, but you need to have the followin
 >
 > You can download Docker for Windows from - https://docs.docker.com/docker-for-windows/
 > ![Docker for Windows](/TutorialsPoint/res/img/docker_for_windows.jpg)
+
+
+## Docker ToolBox
+Docker ToolBox has been designed for older versions of Windows, such as Windows 8.1 and Windows 7. You need to have the following configuration in order to install Docker for Windows.
+> ## System Requirements
+> Windows OS | Windows 7, 8, 8.1
+> ---- | ----
+> Memory | 2 GB RAM (recommended)
+> Virtualization | This should be enabled.
 >
+> You can download Docker ToolBox from - https://ww.docker.com/products/docker-toolbox(https://ww.docker.com/products/docker-toolbox)
+> ![Docker ToolBox](/TutorialsPoint/res/img/docker_toolbox.jpg)
