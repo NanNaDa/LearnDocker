@@ -173,3 +173,12 @@ To see more information on the Docker running on the system, you can issue the f
 
 
 ## Docker for Windows
+Docker has out-of-the-box support for Windows, but you need to have the following configuration in order to install Docker for Windows.
+> ## System Requirements
+> Windows OS | Windows 10 64 bit
+> ---- | ----
+> Memory | 2 GB RAM (recommended)
+>
+> You can download Docker for Windows from - https://docs.docker.com/docker-for-windows/
+> ![Docker for Windows](/TutorialsPoint/res/img/docker_for_windows.jpg)
+>
