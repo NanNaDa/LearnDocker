@@ -9,7 +9,7 @@ To install Docker, we need to follow the steps given below.
 
 > Step 1. - Before installing Docker, you first have to ensure that you have the right Linux kernel version running. Docker is only designed to run on Linux kernel version 3.8 and higher. We can do this by running the following command.
 >> <b>uname</b>
->> This method returns the system informtion about the linux system.
+>> <p>This method returns the system informtion about the linux system.</p>
 >>
 >> <b> Syntax</b>
 >> ```
