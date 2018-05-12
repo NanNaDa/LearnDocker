@@ -7,17 +7,17 @@ The following screenshot shows a simple Ubuntu server which has been installed o
 
 To install Docker, we need to follow the steps given below.
 
-> Step 1. - Before installing Docker, you first have to ensure that you have the right Linux kernel version running. Docker is only designed to run on Linux kernel version 3.8 and higher. We can do this by running the following command.
->> <b>uname</b>
->> <p>This method returns the system informtion about the linux system.</p>
+> ## Step 1. - Before installing Docker, you first have to ensure that you have the right Linux kernel version running. Docker is only designed to run on Linux kernel version 3.8 and higher. We can do this by running the following command.
+>> ### uname
+>> This method returns the system informtion about the linux system.
 >>
->> <b> Syntax</b>
+>> ### Syntax
 >> ```
 >> uname -a
 >> ```
->> ## Options </b>
+>> ### Options
 >> <b>a</b> - This is used to ensure that the system information is returned.
->> <b> Return Value</b>
+>> ### Return Value
 >><p> This method returns the following information on the Linux system
 >>> - kernel name
 >>> - node name
@@ -26,34 +26,35 @@ To install Docker, we need to follow the steps given below.
 >>> - processor
 >>> - hardware platform
 >>> - operating system
->> <b> Example </b>
+>>
+>> ### Example
 >> ```
 >> uname -a
 >> ```
->> <b> Output</b>
->> <p>When we run above command, we will get the following result</p>
+>> ### Output
+>> When we run above command, we will get the following result
 >> ![result of command](/TutorialsPoint/res/img/output.jpg)
 >> From the output, we can see that the Linux kernel version is 4.2.0-27 which is higher than version 3.8, so we are good to go.
 >
-> Step 2. - You need to update the OS with the latest packages, which can be done via the following command
+> ## Step 2. - You need to update the OS with the latest packages, which can be done via the following command
 >> ```
 >> apt-get
 >> ```
 >> This method installs packages from the Internet on to the Linux system.
->> <b> Systax</b>
->> <p> sudo apt-get update</p>
->> <b> Options</b>
+>> ### Systax
+>> sudo apt-get update
+>> ### Options
 >>> - <b>sudo</b> - The <b>sudo</b> command is used to ensure that the command runs with root access.
 >>> - <b>update</b> - the <b>update</b> option is used ensure that all packages are updated on the Linux system.
->> <b>Return Value</b>
->> <p>None</p>
->> <b>Example</b>
+>> ### Return Value
+>> None
+>> ### Example
 >> ```
 >> sudo apt-get update
 >>```
->> <b>Output</b>
->> <p>When we run the above command, we will get the following result</p>
+>> ### Output
+>> When we run the above command, we will get the following result
 >> ![command of sudo apt-get update](/TutorialsPoint/res/img/example_output.jpg)
 >> This command will connect to the internet and download the latest system packages for Ubuntu.
-> Step 3. -
+> ## Step 3. -
 
