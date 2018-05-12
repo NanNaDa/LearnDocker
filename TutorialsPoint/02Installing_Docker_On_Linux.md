@@ -114,5 +114,62 @@ To install Docker, we need to follow the steps given below.
 >> ![aufs storage driver](/TutorialsPoint/res/img/aufs_storage_driver.jpg)
 >
 > ## Step 10
-> 
+> The final step is to install Docker and we can do this with the following command
+>> ```
+>> sudo apt-get install -y docker-engine
+>>```
+>> Here <b>apt-get</b> uses the install option to download the Docker-engine image from the Docker website and get Docker installed.
+>>
+>> The Docker-engine is the official package from the Docker Corporation for Ubuntu-based system.
+>> ![docker engine](/TutorialsPoint/res/img/docker_engine.jpg)
+>>
+>> In the next section, we will see how to check for the version of Docker that was installed.
 
+
+## Docker Version
+To see the version of Docker running, you can issue the following command
+>> ## Syntax
+>>```
+>> docker version
+>>```
+>> ## Options
+>> - <b>version</b> - It is used to ensure the Docker command returns the Docker version installed.
+>> ## Return Value
+>> The output will provide the various details of the Docker version installed on the system.
+>> ## Example
+>> ```
+>> sudo docker version
+>>```
+>> ## Output
+>> When we run the above program, we will get the following result
+>>
+>> ![docker version output](/TutorialsPoint/res/img/docker_version_output.jpg)
+
+
+## Docker Info
+To see more information on the Docker running on the system, you can issue the following command
+>> ## Syntax
+>>```
+>> docker info
+>>```
+>> ## Options
+>> - <b>info</b> - It is used to ensure that the Docker command returns the detailed information on the Docker service installed.
+>> ## Return Value
+>> The output will provide the various details of the Docker installed on the system such as
+>> - Number of containers
+>> - Number of images
+>> - The storage driver used by Docker
+>> - The root directory used by Docker
+>> - The execution driver used by Docker
+>>
+>> ## Example
+>>```
+>> sudo docker info
+>>```
+>>
+>> ## Output
+>> When we run the above command, we will get the following result
+>> ![docker info example output](/TutorialsPoint/res/img/docker_info_example_output.jpg)
+
+
+## Docker for Windows
