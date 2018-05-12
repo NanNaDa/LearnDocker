@@ -69,6 +69,7 @@ To install Docker, we need to follow the steps given below.
 > ## Step 4.
 > The next step is to add the new GPG key. This key is required to ensure that all data is encrypted when downloading the necessary packages for Docker.
 > The following command will download the key with the ID 58118E89F3A912897C070ADBF76221572C52609D from the <b>keyserver</b> hkp://ha.pool.sks-keyservers.net:80 and adds it to the <b>adv</b> keychain. Please note that this particular key is required to download the necessary Docker packages.
+>
 ![new pgp key](/TutorialsPoint/res/img/new_pgp_key.jpg)
 > ## Step 5.
 > Next, depending on the version of Ubuntu you have, you will need to add the nelevant site to the <b>docker.list</b> for the <b>apt package manager</b>, so that it will be able to detect the Docker packages from the Docker site and download them accordingly.
@@ -86,6 +87,32 @@ To install Docker, we need to follow the steps given below.
 >>```
 >> ![docker list](/TutorialsPoint/res/img/docker_list.jpg)
 > ## Step 6
-> Next, 
-
+> Next, we issue the <b>apt-get update command</b> to update the packages on the Ubuntu system.
+>
+> ![apt get update command](/TutorialsPoint/res/img/apt_get_update_command.jpg)
+>
+> ## Step 7
+> If you want to verify that the package manage is pointing to the right repository, you can do it by issuing the <b>apt-cache command</b>.
+>>```
+>> apt-cache policy docker-engine
+>>```
+>>
+>> In the output, you will get the link to https://apt.dockerproject.org/repo/
+>>
+>> ![apt cache command]
+> ## Step 8
+> Issue the <b>apt-get update command</b> to ensure all the packages on the local system are up to date.
+> ![packages updation](/TutorialsPoint/res/img/packages_updation.jpg)
+> ## Step 9
+> For Ubuntu Trusty, Wily, and Xenial, we have to install the linux-image-extra-* kernel packages, which allows one to use the <b>aufs storage driver</b>. This driver is used by the newer versions of Docker.
+>
+>> It can be done by using the following command.
+>> ```
+>> sudo apt-get install linux-image-extra-$(uname -r)
+>>     linux-image-extra-virtual
+>>```
+>> ![aufs storage driver](/TutorialsPoint/res/img/aufs_storage_driver.jpg)
+>
+> ## Step 10
+> 
 
