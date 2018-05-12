@@ -18,14 +18,14 @@ To install Docker, we need to follow the steps given below.
 >> ### Options
 >> <b>a</b> - This is used to ensure that the system information is returned.
 >> ### Return Value
->><p> This method returns the following information on the Linux system
->>> - kernel name
->>> - node name
->>> - kernel release
->>> - machine
->>> - processor
->>> - hardware platform
->>> - operating system
+>>This method returns the following information on the Linux system
+>> - kernel name
+>> - node name
+>> - kernel release
+>> - machine
+>> - processor
+>> - hardware platform
+>> - operating system
 >>
 >> ### Example
 >> ```
