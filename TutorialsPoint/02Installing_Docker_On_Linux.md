@@ -34,6 +34,7 @@ To install Docker, we need to follow the steps given below.
 >> ### Output
 >> When we run above command, we will get the following result
 >> ![result of command](/TutorialsPoint/res/img/output.jpg)
+>>
 >> From the output, we can see that the Linux kernel version is 4.2.0-27 which is higher than version 3.8, so we are good to go.
 >
 > ## Step 2. - You need to update the OS with the latest packages, which can be done via the following command
