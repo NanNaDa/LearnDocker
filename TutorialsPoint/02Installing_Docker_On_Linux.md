@@ -7,7 +7,8 @@ The following screenshot shows a simple Ubuntu server which has been installed o
 
 To install Docker, we need to follow the steps given below.
 
-> ## Step 1. - Before installing Docker, you first have to ensure that you have the right Linux kernel version running. Docker is only designed to run on Linux kernel version 3.8 and higher. We can do this by running the following command.
+> ## Step 1.
+> Before installing Docker, you first have to ensure that you have the right Linux kernel version running. Docker is only designed to run on Linux kernel version 3.8 and higher. We can do this by running the following command.
 >> ### uname
 >> This method returns the system informtion about the linux system.
 >>
@@ -37,7 +38,8 @@ To install Docker, we need to follow the steps given below.
 >>
 >> From the output, we can see that the Linux kernel version is 4.2.0-27 which is higher than version 3.8, so we are good to go.
 >
-> ## Step 2. - You need to update the OS with the latest packages, which can be done via the following command
+> ## Step 2.
+> You need to update the OS with the latest packages, which can be done via the following command
 >> ```
 >> apt-get
 >> ```
@@ -58,5 +60,12 @@ To install Docker, we need to follow the steps given below.
 >> ![command of sudo apt-get update](/TutorialsPoint/res/img/example_output.jpg)
 >>
 >> This command will connect to the internet and download the latest system packages for Ubuntu.
-> ## Step 3. -
+> ## Step 3.
+> The next step is to install the necessary certificates that will be required to work with the Docker site later on to download the necessary Docker packages. It can be done with the following command.
+>>```
+>> sudo apt-get install apt-transport-https ca-certificates
+>>```
+>> ![necessary docker packages](/TutorialsPoint/res/img/necessary_docker_packages.jpg)
+> ## Step 4.
+> The next step is to add the new GPG key. This key is required to ensure that all data is encrypted when downloading the necessary packages for Docker.
 
