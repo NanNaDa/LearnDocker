@@ -15,3 +15,45 @@ To install Docker, we need to follow the steps given below.
 >> ```
 >> uname -a
 >> ```
+>> <b> Options </b>
+>> <b>a</b> - This is used to ensure that the system information is returned.
+>> <b> Return Value</b>
+>><p> This method returns the following information on the Linux system
+>>> - kernel name
+>>> - node name
+>>> - kernel release
+>>> - machine
+>>> - processor
+>>> - hardware platform
+>>> - operating system
+>> <b> Example </b>
+>> ```
+>> uname -a
+>> ```
+>> <b> Output</b>
+>> <p>When we run above command, we will get the following result</p>
+>> ![result of command](/TutorialsPoint/res/img/output.jpg)
+>> From the output, we can see that the Linux kernel version is 4.2.0-27 which is higher than version 3.8, so we are good to go.
+>
+> Step 2. - You need to update the OS with the latest packages, which can be done via the following command
+>> ```
+>> apt-get
+>> ```
+>> This method installs packages from the Internet on to the Linux system.
+>> <b> Systax</b>
+>> <p> sudo apt-get update</p>
+>> <b> Options</b>
+>>> - <b>sudo</b> - The <b>sudo</b> command is used to ensure that the command runs with root access.
+>>> - <b>update</b> - the <b>update</b> option is used ensure that all packages are updated on the Linux system.
+>> <b>Return Value</b>
+>> <p>None</p>
+>> <b>Example</b>
+>> ```
+>> sudo apt-get update
+>>```
+>> <b>Output</b>
+>> <p>When we run the above command, we will get the following result
+>> ![command of sudo apt-get update](/TutorialsPoint/res/img/example_output.jpg)
+>> This command will connect to the internet and download the latest system packages for Ubuntu.
+> Step 3. - 
+
