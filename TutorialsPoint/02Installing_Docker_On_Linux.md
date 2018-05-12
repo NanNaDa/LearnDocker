@@ -68,4 +68,24 @@ To install Docker, we need to follow the steps given below.
 >> ![necessary docker packages](/TutorialsPoint/res/img/necessary_docker_packages.jpg)
 > ## Step 4.
 > The next step is to add the new GPG key. This key is required to ensure that all data is encrypted when downloading the necessary packages for Docker.
+> The following command will download the key with the ID 58118E89F3A912897C070ADBF76221572C52609D from the <b>keyserver</b> hkp://ha.pool.sks-keyservers.net:80 and adds it to the <b>adv</b> keychain. Please note that this particular key is required to download the necessary Docker packages.
+![new pgp key](/TutorialsPoint/res/img/new_pgp_key.jpg)
+> ## Step 5.
+> Next, depending on the version of Ubuntu you have, you will need to add the nelevant site to the <b>docker.list</b> for the <b>apt package manager</b>, so that it will be able to detect the Docker packages from the Docker site and download them accordingly.
+>> - Precise 12.04 (LTS) - deb https://apt.dockerproject.org/repo ubuntu-precise main
+>> - Trusty 14.04 (LTS) - deb https://apt.dockerproject.org/repo/ ubuntu-trusty main
+>> - wily 15.10 - deb https://apt.dockerproject.org/repo ubuntu-wily main
+>> - Xenial 16.04 (LTS) - https://apt-dockerproject.org/repo ubuntu-xenial main
+>>
+>> Since our OS is Ubuntu 14.04, we will use the Repository name as "deb https://apt.dockerproject.org/repo ubuntu-trusty main".
+>>
+>> And then, we will need to add this repository to the <b>docker.list</b> as mentioned above.
+>> ```
+>> echo "deb https://dockerproject.org/repo ubuntu-trusty main"
+>>     | sudo tee /etc/apt/sources.list.d/docker.list
+>>```
+>> ![docker list](/TutorialsPoint/res/img/docker_list.jpg)
+> ## Step 6
+> Next, 
+
 
