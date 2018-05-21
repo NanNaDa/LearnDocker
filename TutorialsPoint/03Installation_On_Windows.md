@@ -2,12 +2,12 @@ Let's go through the installation of each product.
 
 # Docker for Windows
 Once the installer has been downloaded, double-click it to start the installer and then follow the steps given below.
-> Step 1 
+> # Step 1 
 > Click on the Agreement terms and then the Install button to proceed ahead with the installation.
 >
 > ![docker setup](/TutorialsPoint/res/img/docker_setup.jpg)
 >
-> Step 2
+> # Step 2
 > Once complete, click the Finish button to complete the installation.
 > 
 > ![docker finish](/TutorialsPoint/res/img/finish.jpg)
@@ -15,27 +15,27 @@ Once the installer has been downloaded, double-click it to start the installer a
 ## Docker ToolBox
 Once the installer has been downloaded, double-click it to start the installer and then follow the steps given below.
 >
-> Step 1
+> # Step 1
 > Click the Next button on the start screen.
 >
 > ![Docker Toolbox Next](/TutorialsPoint/res/img/docker_toolbox_next.jpg)
 > 
-> Step 2
+> # Step 2
 > Keep the default location on the next screen and click the Next button.
 > 
 > ![Destination Location](/TutorialsPoint/res/img/destination_location.jpg)
 >
-> Step 3
+> # Step 3
 > Keep the default components and click the Next button to proceed.
 > 
 > ![Select Components](/TutorialsPoint/res/img/select_components.jpg)
 >
-> Step 4
+> # Step 4
 > Keep the Additional Tasks as they are and then click the Next button.
 > 
 > ![Additional Tasks](/TutorialsPoint/res/img/additional_tasks.jpg)
 >
-> Step 5
+> # Step 5
 > On the final screen, click the Install button.
 > 
 > ![Install](/TutorialsPoint/res/img/install.jpg)
