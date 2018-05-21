@@ -6,7 +6,7 @@ The official site for Docker hub is - https://www.docker.com/community-edition#a
 > ### Step 1
 > First you need t do a simple sign-up on Docker hub.
 > 
-> ![Docker Hub Signup](/TutorialsPoint/res/img/docer_hub_signup.jpg)
+> ![Docker Hub Signup](/TutorialsPoint/res/img/docker_hub_signup.jpg)
 >
 > ### Step 2
 > Once you have signed up, you will be logged into Docker Hub.
