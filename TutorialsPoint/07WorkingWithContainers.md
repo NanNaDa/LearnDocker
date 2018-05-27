@@ -25,7 +25,7 @@ The above command will show the top-level processes within a container.
 ### Output
 when we run the above command, it will produce the following result -
 
-![Docker Top](/TutorialsPoint/res/img/dockek_top.jpg)
+![Docker Top](/TutorialsPoint/res/img/docker_top.jpg)
 
 ### docker stop
 This command is used to stop a running container.
@@ -211,7 +211,7 @@ The above command will kill the processes in the running container **07b0b6f434f
 #### Output
 When we run the above command, it will produce the following result -
 
-![docker kill](/TutorialsPint/res/img/docker_kill.jpg)
+![docker kill](/TutorialsPoint/res/img/docker_kill.jpg)
 
 
 ## Docker - Container Lifecycle
