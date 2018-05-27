@@ -89,7 +89,7 @@ This command will download the **cntos** image, if it is not already present, an
 ### Output
 When we run the above command, we will get the following result -
 
-![Downloading Docker Images](TutorialsPoint/res/img/downloading_docker_images.jpg)
+![Downloading Docker Images](/TutorialsPoint/res/img/downloading_docker_images.jpg)
 
 You will now see the CentOS Docker image downloaded. Now, if we run the Docker **images** command to see the list of images on the system, we should be able to see the **centos** image as well.
 
@@ -152,7 +152,7 @@ $ sudo docker images -q
 ### Output
 When we run the above command, it will produce the following result -
 
-![Docker Images Q](/TutorialsPoint/res/img/docker_image_q.jpg)
+![Docker Images Q](/TutorialsPoint/res/img/docker_images_q.jpg)
 
 ## docker inspect
 This command is used see the details of an image or container.
