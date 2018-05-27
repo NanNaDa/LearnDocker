@@ -53,7 +53,7 @@ $ sudo docker images
 When we run the above command, it will produce the following result -
 
 
-![Displaying Docker Images](/TutorialsPoint/res/displayng_docker_images.jpg)
+![Displaying Docker Images](/TutorialsPoint/res/displaying_docker_images.jpg)
 
 From the above output, you can see that the server has three images: **centos, newcentos,** and **jenkins**. Each image has the following attributes -
 
