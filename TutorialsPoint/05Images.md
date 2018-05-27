@@ -53,7 +53,7 @@ $ sudo docker images
 When we run the above command, it will produce the following result -
 
 
-![Displaying Docker Images](/TutorialsPoint/res/displaying_docker_images.jpg)
+![Displaying Docker Images](/TutorialsPoint/res/img/displaying_docker_images.jpg)
 
 From the above output, you can see that the server has three images: **centos, newcentos,** and **jenkins**. Each image has the following attributes -
 
@@ -89,11 +89,11 @@ This command will download the **cntos** image, if it is not already present, an
 ### Output
 When we run the above command, we will get the following result -
 
-![Downloading Docker Images](TutorialsPoint/res/downloading_docker_images.jpg)
+![Downloading Docker Images](TutorialsPoint/res/img/downloading_docker_images.jpg)
 
 You will now see the CentOS Docker image downloaded. Now, if we run the Docker **images** command to see the list of images on the system, we should be able to see the **centos** image as well.
 
-![CentOS](/TutorialsPoint/res/centos.jpg)
+![CentOS](/TutorialsPoint/res/img/centos.jpg)
 
 
 ## Removing Docker Images
@@ -126,7 +126,7 @@ Here, **7a86f8ffcb25** is the Image ID of the **newcentos** image.
 ### Output
 When we run the above command, it will produce the following result -
 
-![Removing Docker Images](/TutorialsPoint/res/removing_docker_images.jpg)
+![Removing Docker Images](/TutorialsPoint/res/img/removing_docker_images.jpg)
 
 Let's see some more Docker commands on images.
 
@@ -152,7 +152,7 @@ $ sudo docker images -q
 ### Output
 When we run the above command, it will produce the following result -
 
-![Docker Images Q](/TutorialsPoint/res/docker_image_q.jpg)
+![Docker Images Q](/TutorialsPoint/res/img/docker_image_q.jpg)
 
 ## docker inspect
 This command is used see the details of an image or container.
@@ -176,5 +176,5 @@ $ sudo docker inspect jenkins
 ### Output
 when we run the above command, it will produce the following result -
 
-![Docker Inspect](/TutorialsPoint/res/docker_inspect.jpg)
+![Docker Inspect](/TutorialsPoint/res/img/docker_inspect.jpg)
 
